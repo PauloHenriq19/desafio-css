@@ -20,17 +20,62 @@ a, a:hover {
     text-decoration: none;
 }
 
+header {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-size: 18px;
+}
+
+.logo a {
+    margin-top: auto;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+    left: 955px;
+    top: 35px;
+}
+
 .generic-section {
     min-height: 300px;
     padding: 40px 20px;
+}
+.generic-section h1 {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .bg-blue {
     background-color: var(--color-blue);
 }
 
+.bg-blue h1 {
+    color: var(--color-white);
+}
+
 .bg-white {
     background-color: var(--color-white);
+}
+
+.bg-white h1 {
+    color: var(--color-red);
 }
 
 .generic-section h2 {
@@ -58,6 +103,7 @@ footer {
 
 .footer-content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -75,5 +121,9 @@ footer {
 
 .footer-company-container {
     text-align: center;
+}
+
+.footer-socialmedia-container {
+    
 }
 
