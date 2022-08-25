@@ -158,11 +158,12 @@ header img {
 }
 
 footer {
+    display: flex;
+    align-items: center;
     padding: 40px 20px;
     min-height: 200px;
     background-color: var(--color-black);
     color: var(--color-white);
-    display: flex;
     font-size: 14px;
     margin: 10px;
 }
@@ -178,20 +179,18 @@ footer {
     width: 30px;
     height: 30px;
     left: 537px;
-    top: 1458px;
-    display: flex;    
+    top: 1458px; 
+    margin: 10px;   
 }
 
 .footer-content--icon a {
     display: flex;
+    align-items: center;
     line-height: 19.07px;
 }
 
 .footer-company-container {
+    padding: 20px;
     text-align: center;
-}
-
-.footer-socialmedia-container {
-    
 }
 
